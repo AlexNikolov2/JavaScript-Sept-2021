@@ -1,7 +1,7 @@
 let lon;
 let lat;
 let temperature = document.querySelector(".temp");
-let desc = document.querySelector(".desc");
+let desc = document.querySelector(".summary");
 let loc = document.querySelector(".location");
 let icon = document.querySelector(".icon");
 
@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
           loc.textContent = data.name + "," + data.sys.country;
           let icon1 = data.weather[0].icon;
           icon.innerHTML = 
-              `<img src="icons/${icon1}.svg" style= 'height:10rem'/>`;
+              `<img src="icons/${icon1}.png" style= 'height:10rem'/>`;
         });
     });
   }
