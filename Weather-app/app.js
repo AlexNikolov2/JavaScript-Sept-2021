@@ -10,7 +10,6 @@ const kelvin = 273;
 window.addEventListener("load", () => {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
-      console.log(position);
       lon = position.coords.longitude;
       lat = position.coords.latitude;
   
@@ -28,7 +27,6 @@ window.addEventListener("load", () => {
           return res.json();
         })
         .then((data) => {
-          console.log(data);
           temperature.textContent = Math.floor(data.main.temp - kelvin) + "°C";
           desc.textContent = data.weather[0].description;
           loc.textContent = data.name + "," + data.sys.country;
