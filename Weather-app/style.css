@@ -24,8 +24,27 @@
     margin: 40px;
       width: fit-content;
       height: fit-content;
-      color: black;
       font-family: "Helvetica Neue", sans-serif;
       border-radius: 15px;
       border: 10px solid rgb(202, 165, 0);
   } 
+
+  .summary{
+    font-size: 20px;
+    background-color:rgb(202, 165, 0);
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  .temp{
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+  }
+  .location{
+    font-size: 20px;
+    background-color:rgb(202, 165, 0);
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+  }

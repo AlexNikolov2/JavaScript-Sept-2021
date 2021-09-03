@@ -18,12 +18,12 @@ window.addEventListener("load", () => {
       const apiKey = "058b0dcb5053e6b18cb4bf8970076981";
   
       // API URL
-      const base =
+      const url =
 `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
-`lon=${lon}&appid=058b0dcb5053e6b18cb4bf8970076981`;
+`lon=${lon}&appid=${apiKey}`;
   
       // Calling the API
-      fetch(base)
+      fetch(url)
         .then((res) => {
           return res.json();
         })
