@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+
+  header{
+    background-color: rgb(202, 165, 0);
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px
+  }
+
+  h1{
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .container{
+    align-items: center;
+    margin: 40px;
+      width: fit-content;
+      height: fit-content;
+      color: black;
+      font-family: "Helvetica Neue", sans-serif;
+      border-radius: 15px;
+      border: 10px solid rgb(202, 165, 0);
+  } 

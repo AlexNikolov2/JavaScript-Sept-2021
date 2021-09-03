@@ -1,1 +1,1 @@
-I made this weather app thanks to https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893
+I made this weather app thanks to https://www.geeksforgeeks.org/weather-app-using-vanilla-javascript/
