@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+
+  body {
+      background: url("./images/Earth\ Wallpaper.jpg");
+  }
+  header {
+      background-color: rgb(22, 23, 24);
+      border-radius: 15px;
+  }
