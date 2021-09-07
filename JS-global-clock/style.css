@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 
 * {
     margin: 0;
@@ -30,14 +32,47 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
   }
+  main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   section{
       width: 400px;
       height: 600px;
       background-color: rgb(22, 23, 24);
       color: white;
-      
+      border-radius: 15px;
+      margin: 25px
   }
   img{
       width: max-content;
-      height: max-content;
+      height: 320px;
+      border-radius: 15px;
+      margin: 20px 40px 20px 40px;
+  }
+  .city-name{
+    font-family: 'Roboto Slab', serif;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 20px
+  }
+  .region{
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+  }
+  .date,.time{
+    font-family: 'Roboto Slab', serif;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
