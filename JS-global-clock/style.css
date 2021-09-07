@@ -67,7 +67,8 @@
     text-align: center;
     font-weight: 100;
   }
-  .date,.time{
+  .date-london,.date-sofia,.date-beijing,
+  .time-london,.time-sofia,.time-beijing{
     font-family: 'Roboto Slab', serif;
     font-size: 29px;
     color: white;
