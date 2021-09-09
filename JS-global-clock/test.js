@@ -7,3 +7,6 @@ let londonTime = new Date().toLocaleTimeString("en-US", {
     hourCycle: "h23",
   });
   console.log(londonTime);
+
+  let sofiaDate = new Date().toLocaleString({timeZone: 'Europe/Sofia'})
+  console.log(sofiaDate);
