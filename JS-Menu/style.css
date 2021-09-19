@@ -4,10 +4,16 @@
     box-sizing: border-box;
     font-weight: normal;
   }
-body{
-    background-color: rgb(23, 15, 53);
+
+html{
+  background-color: rgb(20, 31, 78)
 }
-main{
+body{
+  width: 75%;
+  height: 100%;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid rgb(155, 129, 15);
+  border-radius: 10px
 }
