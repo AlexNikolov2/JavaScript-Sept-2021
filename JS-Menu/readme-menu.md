@@ -1,0 +1,3 @@
+Project was done thanks to
+
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDE2UDdRS3RYSi1MRmdzRXBtYkdwaE9SbVhld3xBQ3Jtc0trTWhUZnJJR0toanpsNHFQc2xSaU1uN1c3NC1BZ2FCSWFfaWFVMkVxS1I5THp2b0UwRWVtQ0RySEFLbFFDV0NlcVlRMTM4MmluaWhZOHlFaXhTWHU4RTU5LVBJX3Rpdjg0aUo2QkJxNEJVRlRCNEVrQQ&q=https%3A%2F%2Fwww.vanillajavascriptprojects.com%2F
