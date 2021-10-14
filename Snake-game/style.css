@@ -1,20 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+
+body{
+  background-color:rgb(22, 22, 22);
+
+}
+
+h1{
+  font-family: 'Saira', sans-serif;
+  text-shadow: 5px 5px 5px rgb(77, 166, 255);
+  text-align: center;
+  color:white
+}
+
+.score{
+  position:absolute;
+  margin-top: 5px;
+  left: 48.5%;
+  margin-right:-50%;
+  border-radius: 5px;
+  font-family: 'Saira', sans-serif;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+
+button{
+  position:relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  left: 47%;
+  margin-right:-50%;
+  border-radius: 5px;
+  font-family: 'Saira', sans-serif;
+  color:rgb(255, 255, 255);
+  background-color: blue;
+  border-radius: 10px;
+}
+
 .grid {
-    width: 200px;
-    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     border-style: solid;
+    border: 3px solid rgb(55, 211, 24);
+    box-shadow: 2px 2px rgb(63, 255, 79), 2px 2px rgb(63, 255, 79);
   }
   
   .grid div {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   
   .snake {
     background-color: blue;
+    box-shadow: 1px 1px 1px 1px rgb(65, 84, 255)
   }
   
   .apple {
     background-color: purple;
+    box-shadow: 1px 1px 1px 1px rgb(255, 0, 255)
   }
