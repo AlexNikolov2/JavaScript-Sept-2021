@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrap">
-        <div class="header">
-            <h1>Sinoptik</h1>
-            <h3>Check the weather at home and abroad!</h3>
-        </div>
-        
-        <div class="location-wrap">
-            <div class="left-side">
-                <!--elements to be added via js functionality-->
-            </div>
-            <div class="right-side">
-                <!--elements to be added via js functionality-->
-            </div>
-        </div>
-        
-        <button class="submit-search"></button>
-        <div class="element-wrap">
+    <header>
+        <h1>Sinoptik</h1>
+        <h3>Check the weather at home and abroad!</h3>
+    </header>
+
+    <main>
+        <section class="location">
             <!--elements to be added via js functionality-->
-        </div>
-    </div>
+        </section>
+        
+        <form>
+        <input type="text" name="username"
+            id="search" placeholder="Search for a city..."/>
+        <button type="search" class="btn"
+            id="searchButton" onclick="" disabled>
+            Search
+          </button>
+        </form>
+
+        <section class="other-cities">
+            <!--elements to be added via js functionality-->
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
