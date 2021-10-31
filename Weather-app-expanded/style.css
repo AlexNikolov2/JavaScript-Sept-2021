@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 header{
     max-width: 900px;
@@ -16,4 +17,39 @@ main{
     background-color: rgb(255,195,0);
     color: white;
     font-size: 25px;
+}
+button{
+    background-color: white;
+    color: rgb(255,195,0);
+    border-radius: 5px;
+}
+input{
+    color: rgb(255,195,0);
+    border-radius: 5px;
+}
+.other-cities{
+    display: flex;
+    align-content:center;
+    flex-direction: row;
+}
+.city{
+    width:180px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:fit-content;
+    background-color: white;
+    border-radius: 10px;
+}
+.name{
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.temp{
+    color: black;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+}
+.symbol{
+    size: 75px;
 }
