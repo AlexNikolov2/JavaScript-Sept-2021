@@ -1,1 +1,0 @@
-This is my attempt on making a website for my mum's beauty salon. 
