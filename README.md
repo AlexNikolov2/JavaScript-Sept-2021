@@ -27,7 +27,7 @@ Calculator    | Done
 Menu          | Done
 Snake Game    | Done
 Extended Weather App | HTML & CSS made, JS functionality needed
-Beauty Salon  | Initialized
+Beauty Salon  | Done
 
 ## Results
 
